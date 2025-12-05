@@ -10,8 +10,8 @@ train_datagen = tf.keras.preprocessing.image.ImageDataGenerator(rescale=1./255)
 test_datagen  = tf.keras.preprocessing.image.ImageDataGenerator(rescale=1./255)
 
 # Ayoub Changer path ici!!!!!!
-train_dir = "C:/Users/stito/OneDrive/Desktop/Project ML/Data/archive/train/"
-test_dir = "C:/Users/stito/OneDrive/Desktop/Project ML/Data/archive/test/"
+train_dir = "C:/Users/LENOVO/Desktop/Facial-Expression-Recognition-System/Data/archive/train"
+test_dir = "C:/Users/LENOVO/Desktop/Facial-Expression-Recognition-System/Data/archive/test"
 
 train_generator = train_datagen.flow_from_directory(
     train_dir,

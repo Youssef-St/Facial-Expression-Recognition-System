@@ -1,3 +1,5 @@
+import os
+
 import numpy as np
 import cv2
 from tensorflow.keras.utils import to_categorical
@@ -44,6 +46,5 @@ def encode_labels(labels, num_classes=7):
     :return: array encodé one-hot, shape (N, num_classes)
     """
     return to_categorical(labels, num_classes)
-
 
 
